@@ -83,7 +83,7 @@
     
     
     self.passwordTextField = [[NSTextField alloc] init];
-    self.passwordTextField.placeholderString = @"请输入密码";
+    self.passwordTextField.placeholderString = @"请输入key";
     [self.view addSubview:self.passwordTextField];
     NSString *passworld = [[NSUserDefaults standardUserDefaults] objectForKey:AESPasswordUserDefault];
     if (!passworld || passworld.length == 0) {
