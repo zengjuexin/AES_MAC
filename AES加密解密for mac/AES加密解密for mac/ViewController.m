@@ -34,7 +34,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     [self initViews]; 
 }
 - (void)viewDidLayout
